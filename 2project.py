@@ -8,6 +8,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+
 df=pd.read_csv("train.csv")
 
 df["Age"] =df["Age"].fillna(df["Age"].mean())
