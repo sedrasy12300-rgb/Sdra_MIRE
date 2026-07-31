@@ -10,7 +10,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 df=pd.read_csv("train.csv")
-
 df["Age"] =df["Age"].fillna(df["Age"].mean())
 df["Embarked"] =df["Embarked"].fillna(df["Embarked"].mode()[0])
 df =pd.get_dummies(df,columns=["Embarked"])
