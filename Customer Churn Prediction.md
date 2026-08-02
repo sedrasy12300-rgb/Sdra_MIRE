@@ -4,7 +4,7 @@ Overview
 This project focuses on predicting customer churn using Machine Learning techniques.  
 The goal is to identify customers who are likely to leave a service provider based on their characteristics and usage information.
 
-## Dataset
+Dataset
 The dataset used in this project is the Telco Customer Churn Dataset.
 
 It contains customer information such as:
